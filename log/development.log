@@ -1,0 +1,1443 @@
+Started GET "/" for 172.22.0.1 at 2022-08-28 07:05:22 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/" for 172.22.0.1 at 2022-08-28 07:05:22 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (8.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+Processing by BooksController#index as HTML
+Completed 401 Unauthorized in 70ms (ActiveRecord: 0.0ms | Allocations: 8317)
+
+
+Completed 401 Unauthorized in 56ms (ActiveRecord: 0.0ms | Allocations: 7826)
+
+
+Started GET "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:05:23 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 6.0ms | Allocations: 2736)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 89.9ms | Allocations: 10861)
+  Rendered layout layouts/application.html.haml (Duration: 2969.3ms | Allocations: 38026)
+Completed 200 OK in 3089ms (Views: 3053.1ms | ActiveRecord: 14.1ms | Allocations: 48073)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:05:58 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (10.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 48ms (ActiveRecord: 11.3ms | Allocations: 5285)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 0.4ms | Allocations: 131)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 4.4ms | Allocations: 1097)
+  Rendered layout layouts/application.html.haml (Duration: 28.0ms | Allocations: 5571)
+Completed 200 OK in 538ms (Views: 31.5ms | ActiveRecord: 0.0ms | Allocations: 7274)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:08:42 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 12ms (ActiveRecord: 1.4ms | Allocations: 1323)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 3.3ms | Allocations: 2689)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 12.2ms | Allocations: 7819)
+  Rendered layout layouts/application.html.haml (Duration: 44.1ms | Allocations: 19937)
+Completed 200 OK in 529ms (Views: 55.1ms | ActiveRecord: 0.0ms | Allocations: 22489)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:09:01 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 12ms (ActiveRecord: 1.7ms | Allocations: 1339)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 21.6ms | Allocations: 8313)
+  Rendered layout layouts/application.html.haml (Duration: 23.6ms | Allocations: 8383)
+Completed 500 Internal Server Error in 529ms (ActiveRecord: 0.0ms | Allocations: 10908)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    1: %div.container
+    2:   %section.card.mx-3.p-5
+    3:     - flash.each do |f| flash.present?
+    4:       = f['alert']
+    5:     %h2 Log in
+    6:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+    7:       .form-group.mb-2
+  
+app/views/devise/sessions/new.html.haml:4:in `[]'
+app/views/devise/sessions/new.html.haml:4
+app/views/devise/sessions/new.html.haml:3
+app/controllers/users/sessions_controller.rb:6:in `new'
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:09:16 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 13ms (ActiveRecord: 2.8ms | Allocations: 1325)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 4.8ms | Allocations: 2685)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 12.8ms | Allocations: 7803)
+  Rendered layout layouts/application.html.haml (Duration: 46.2ms | Allocations: 19924)
+Completed 200 OK in 527ms (Views: 58.4ms | ActiveRecord: 0.0ms | Allocations: 22472)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:09:34 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 12ms (ActiveRecord: 1.8ms | Allocations: 1323)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 5.8ms | Allocations: 4957)
+  Rendered layout layouts/application.html.haml (Duration: 8.4ms | Allocations: 5026)
+Completed 500 Internal Server Error in 512ms (ActiveRecord: 0.0ms | Allocations: 7549)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    1: %div.container
+    2:   %section.card.mx-3.p-5
+    3:     - flash.each do |f| flash.present?
+    4:       = f[:danger]
+    5:     %h2 Log in
+    6:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+    7:       .form-group.mb-2
+  
+app/views/devise/sessions/new.html.haml:4
+app/views/devise/sessions/new.html.haml:3
+app/controllers/users/sessions_controller.rb:6:in `new'
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:10:21 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 10ms (ActiveRecord: 1.5ms | Allocations: 1322)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 5.7ms | Allocations: 2687)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 14.7ms | Allocations: 7809)
+  Rendered layout layouts/application.html.haml (Duration: 45.5ms | Allocations: 19935)
+Completed 200 OK in 518ms (Views: 57.8ms | ActiveRecord: 0.0ms | Allocations: 22484)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:10:58 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 15ms (ActiveRecord: 1.4ms | Allocations: 1339)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 7.5ms | Allocations: 4950)
+  Rendered layout layouts/application.html.haml (Duration: 9.3ms | Allocations: 5020)
+Completed 500 Internal Server Error in 524ms (ActiveRecord: 0.0ms | Allocations: 7546)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    1: %div.container
+    2:   %section.card.mx-3.p-5
+    3:     - flash.each do |f| flash.present?
+    4:       = f[:alert]
+    5:     %h2 Log in
+    6:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+    7:       .form-group.mb-2
+  
+app/views/devise/sessions/new.html.haml:4
+app/views/devise/sessions/new.html.haml:3
+app/controllers/users/sessions_controller.rb:6:in `new'
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:11:56 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 11ms (ActiveRecord: 1.6ms | Allocations: 1322)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 3.9ms | Allocations: 2685)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 12.6ms | Allocations: 7801)
+  Rendered layout layouts/application.html.haml (Duration: 44.7ms | Allocations: 19922)
+Completed 200 OK in 539ms (Views: 69.6ms | ActiveRecord: 0.0ms | Allocations: 22471)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:13:45 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 10ms (ActiveRecord: 1.6ms | Allocations: 1323)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 3.2ms | Allocations: 2015)
+  Rendered layout layouts/application.html.haml (Duration: 5.5ms | Allocations: 2084)
+Completed 500 Internal Server Error in 505ms (ActiveRecord: 0.0ms | Allocations: 4589)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    1: %div.container
+    2:   %section.card.mx-3.p-5
+    3:     .alert.alert-warning.role="alert"
+    4:       - flash.each do |_k, v| flash.present?
+    5:         = v
+    6:     %h2 Log in
+    7:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+  
+app/views/devise/sessions/new.html.haml:4
+app/controllers/users/sessions_controller.rb:6:in `new'
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:14:14 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.8ms | Allocations: 1322)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 3.8ms | Allocations: 2028)
+  Rendered layout layouts/application.html.haml (Duration: 5.7ms | Allocations: 2097)
+Completed 500 Internal Server Error in 468ms (ActiveRecord: 0.0ms | Allocations: 4619)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    2:   %section.card.mx-3.p-5
+    3:     - flash.each do |_k, v| flash.present?
+    4:       .alert.alert-warning.role="alert"
+    5:         = v
+    6:     %h2 Log in
+    7:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+    8:       .form-group.mb-2
+  
+app/views/devise/sessions/new.html.haml:5
+app/controllers/users/sessions_controller.rb:6:in `new'
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:14:56 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "aknk@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 10ms (ActiveRecord: 1.4ms | Allocations: 1322)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 3.5ms | Allocations: 2685)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 12.6ms | Allocations: 8096)
+  Rendered layout layouts/application.html.haml (Duration: 54.7ms | Allocations: 20217)
+Completed 200 OK in 537ms (Views: 64.5ms | ActiveRecord: 0.0ms | Allocations: 22766)
+
+
+Started GET "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:15:17 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 0.7ms | Allocations: 131)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 7.8ms | Allocations: 1110)
+  Rendered layout layouts/application.html.haml (Duration: 50.4ms | Allocations: 5614)
+Completed 200 OK in 58ms (Views: 55.2ms | ActiveRecord: 0.0ms | Allocations: 6311)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:15:31 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 0.3ms | Allocations: 131)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 3.4ms | Allocations: 1100)
+  Rendered layout layouts/application.html.haml (Duration: 32.7ms | Allocations: 5567)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.0ms | Allocations: 6202)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:15:46 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 4.8ms | Allocations: 2685)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 18.6ms | Allocations: 8091)
+  Rendered layout layouts/application.html.haml (Duration: 65.9ms | Allocations: 20212)
+Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.0ms | Allocations: 22733)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:16:03 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 5.2ms | Allocations: 2685)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 15.2ms | Allocations: 8033)
+  Rendered layout layouts/application.html.haml (Duration: 51.4ms | Allocations: 20140)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.0ms | Allocations: 22643)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:16:13 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 5.3ms | Allocations: 2685)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 19.6ms | Allocations: 7986)
+  Rendered layout layouts/application.html.haml (Duration: 55.2ms | Allocations: 20107)
+Completed 200 OK in 66ms (Views: 64.1ms | ActiveRecord: 0.0ms | Allocations: 22627)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:16:29 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 5.0ms | Allocations: 2686)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 21.2ms | Allocations: 8044)
+  Rendered layout layouts/application.html.haml (Duration: 64.2ms | Allocations: 20174)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.0ms | Allocations: 22677)
+
+
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:18:47 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 10.1ms | Allocations: 5369)
+  Rendered layout layouts/application.html.haml (Duration: 11.9ms | Allocations: 5438)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 7933)
+
+
+  
+ActionView::Template::Error (Missing partial partials/_alert with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder, :haml]}. Searched in:
+  * "/workspace/app/views"
+  * "/usr/local/bundle/gems/devise-4.8.1/app/views"
+  * "/usr/local/bundle/gems/actiontext-6.1.5.1/app/views"
+  * "/usr/local/bundle/gems/actionmailbox-6.1.5.1/app/views"
+):
+    1: %div.container
+    2:   %section.card.mx-3.p-5
+    3:     = render 'partials/alert', locale: { flash: flash }
+    4:     %h2 Log in
+    5:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+    6:       .form-group.mb-2
+  
+app/views/devise/sessions/new.html.haml:3
+app/controllers/users/sessions_controller.rb:6:in `new'
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:19:13 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 6.4ms | Allocations: 5363)
+  Rendered layout layouts/application.html.haml (Duration: 8.9ms | Allocations: 5432)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 7925)
+
+
+  
+ActionView::Template::Error (Missing partial partials/_alert with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder, :haml]}. Searched in:
+  * "/workspace/app/views"
+  * "/usr/local/bundle/gems/devise-4.8.1/app/views"
+  * "/usr/local/bundle/gems/actiontext-6.1.5.1/app/views"
+  * "/usr/local/bundle/gems/actionmailbox-6.1.5.1/app/views"
+):
+    1: %div.container
+    2:   %section.card.mx-3.p-5
+    3:     = render 'partials/alert', locale: { flash: flash }
+    4:     %h2 Log in
+    5:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+    6:       .form-group.mb-2
+  
+app/views/devise/sessions/new.html.haml:3
+app/controllers/users/sessions_controller.rb:6:in `new'
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:19:35 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 1.1ms | Allocations: 1202)
+  Rendered layout layouts/application.html.haml (Duration: 4.1ms | Allocations: 1270)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 1879)
+
+
+  
+ActionView::Template::Error (Missing partial partials/_alert with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder, :haml]}. Searched in:
+  * "/workspace/app/views"
+  * "/usr/local/bundle/gems/devise-4.8.1/app/views"
+  * "/usr/local/bundle/gems/actiontext-6.1.5.1/app/views"
+  * "/usr/local/bundle/gems/actionmailbox-6.1.5.1/app/views"
+):
+    1: %div.container
+    2:   %section.card.mx-3.p-5
+    3:     = render 'partials/alert', locale: { flash: flash }
+    4:     %h2 Log in
+    5:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+    6:       .form-group.mb-2
+  
+app/views/devise/sessions/new.html.haml:3
+app/controllers/users/sessions_controller.rb:6:in `new'
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:19:40 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 0.8ms | Allocations: 1202)
+  Rendered layout layouts/application.html.haml (Duration: 3.3ms | Allocations: 1270)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 1879)
+
+
+  
+ActionView::Template::Error (Missing partial partials/_alert with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder, :haml]}. Searched in:
+  * "/workspace/app/views"
+  * "/usr/local/bundle/gems/devise-4.8.1/app/views"
+  * "/usr/local/bundle/gems/actiontext-6.1.5.1/app/views"
+  * "/usr/local/bundle/gems/actionmailbox-6.1.5.1/app/views"
+):
+    1: %div.container
+    2:   %section.card.mx-3.p-5
+    3:     = render 'partials/alert', locale: { flash: flash }
+    4:     %h2 Log in
+    5:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+    6:       .form-group.mb-2
+  
+app/views/devise/sessions/new.html.haml:3
+app/controllers/users/sessions_controller.rb:6:in `new'
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:19:43 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 1.2ms | Allocations: 1202)
+  Rendered layout layouts/application.html.haml (Duration: 4.2ms | Allocations: 1270)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1878)
+
+
+  
+ActionView::Template::Error (Missing partial partials/_alert with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder, :haml]}. Searched in:
+  * "/workspace/app/views"
+  * "/usr/local/bundle/gems/devise-4.8.1/app/views"
+  * "/usr/local/bundle/gems/actiontext-6.1.5.1/app/views"
+  * "/usr/local/bundle/gems/actionmailbox-6.1.5.1/app/views"
+):
+    1: %div.container
+    2:   %section.card.mx-3.p-5
+    3:     = render 'partials/alert', locale: { flash: flash }
+    4:     %h2 Log in
+    5:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+    6:       .form-group.mb-2
+  
+app/views/devise/sessions/new.html.haml:3
+app/controllers/users/sessions_controller.rb:6:in `new'
+Started POST "/users/sign_in" for 172.22.0.1 at 2022-08-28 07:20:03 +0000
+Cannot render console from 172.22.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 1.3ms | Allocations: 1202)
+  Rendered layout layouts/application.html.haml (Duration: 3.6ms | Allocations: 1270)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1878)
+
+
+  
+ActionView::Template::Error (Missing partial partials/_alert with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder, :haml]}. Searched in:
+  * "/workspace/app/views"
+  * "/usr/local/bundle/gems/devise-4.8.1/app/views"
+  * "/usr/local/bundle/gems/actiontext-6.1.5.1/app/views"
+  * "/usr/local/bundle/gems/actionmailbox-6.1.5.1/app/views"
+):
+    1: %div.container
+    2:   %section.card.mx-3.p-5
+    3:     = render 'partials/alert', locale: { flash: flash }
+    4:     %h2 Log in
+    5:     = form_for(resource, as: resource_name, url: user_session_path) do |f|
+    6:       .form-group.mb-2
+  
+app/views/devise/sessions/new.html.haml:3
+app/controllers/users/sessions_controller.rb:6:in `new'
+  [1m[36mUser Load (6.8ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (15.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "users"."email" FROM "users"[0m
+Started GET "/" for 172.23.0.1 at 2022-08-29 14:32:23 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (12.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+Completed 401 Unauthorized in 38ms (ActiveRecord: 0.0ms | Allocations: 2095)
+
+
+Started GET "/users/sign_in" for 172.23.0.1 at 2022-08-29 14:32:24 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered partials/_alert.html.haml (Duration: 4.0ms | Allocations: 1733)
+  Rendered devise/shared/_links.html.haml (Duration: 5.5ms | Allocations: 2706)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 49.6ms | Allocations: 12310)
+  Rendered layout layouts/application.html.haml (Duration: 836.8ms | Allocations: 31494)
+Completed 200 OK in 916ms (Views: 875.3ms | ActiveRecord: 17.9ms | Allocations: 40682)
+
+
+Started GET "/users/sign_up" for 172.23.0.1 at 2022-08-29 14:32:30 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered partials/_alert.html.haml (Duration: 0.2ms | Allocations: 46)
+  Rendered devise/shared/_error_messages.html.haml (Duration: 4.9ms | Allocations: 2283)
+  Rendered devise/shared/_links.html.haml (Duration: 0.3ms | Allocations: 105)
+  Rendered devise/registrations/new.html.haml within layouts/application (Duration: 42.6ms | Allocations: 9192)
+  Rendered layout layouts/application.html.haml (Duration: 73.2ms | Allocations: 13709)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms | Allocations: 15068)
+
+
+Started POST "/users" for 172.23.0.1 at 2022-08-29 14:32:43 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "name"=>"aknk", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "status"=>"signup"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :email, :password, :password_confirmation[0m
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (60.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "aknk"], ["status", "signup"], ["created_at", "2022-08-29 14:32:43.071306"], ["updated_at", "2022-08-29 14:32:43.071306"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 64.5ms | Allocations: 5428)
+
+
+  
+ActiveRecord::RecordNotUnique (PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+):
+  
+rack-mini-profiler (2.3.4) lib/patches/db/pg.rb:72:in `exec_params'
+rack-mini-profiler (2.3.4) lib/patches/db/pg.rb:72:in `exec_params'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `block (2 levels) in exec_no_cache'
+activesupport (6.1.5.1) lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+activesupport (6.1.5.1) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (6.1.5.1) lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `block in exec_no_cache'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+activesupport (6.1.5.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:670:in `exec_no_cache'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:649:in `execute_and_clear'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:55:in `exec_query'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/database_statements.rb:136:in `exec_insert'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:93:in `exec_insert'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/database_statements.rb:171:in `insert'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+activerecord (6.1.5.1) lib/active_record/persistence.rb:375:in `_insert_record'
+activerecord (6.1.5.1) lib/active_record/persistence.rb:929:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/counter_cache.rb:166:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/locking/optimistic.rb:79:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/attribute_methods/dirty.rb:201:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/callbacks.rb:461:in `block in _create_record'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:106:in `run_callbacks'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:824:in `_run_create_callbacks'
+activerecord (6.1.5.1) lib/active_record/callbacks.rb:461:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/timestamp.rb:108:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/persistence.rb:900:in `create_or_update'
+activerecord (6.1.5.1) lib/active_record/callbacks.rb:457:in `block in create_or_update'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+activerecord (6.1.5.1) lib/active_record/autosave_association.rb:385:in `around_save_collection_association'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:824:in `_run_save_callbacks'
+activerecord (6.1.5.1) lib/active_record/callbacks.rb:457:in `create_or_update'
+activerecord (6.1.5.1) lib/active_record/timestamp.rb:126:in `create_or_update'
+activerecord (6.1.5.1) lib/active_record/persistence.rb:474:in `save'
+activerecord (6.1.5.1) lib/active_record/validations.rb:47:in `save'
+activerecord (6.1.5.1) lib/active_record/transactions.rb:298:in `block in save'
+activerecord (6.1.5.1) lib/active_record/transactions.rb:354:in `block in with_transaction_returning_status'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `block in transaction'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `transaction'
+activerecord (6.1.5.1) lib/active_record/transactions.rb:350:in `with_transaction_returning_status'
+activerecord (6.1.5.1) lib/active_record/transactions.rb:298:in `save'
+activerecord (6.1.5.1) lib/active_record/suppressor.rb:44:in `save'
+devise (4.8.1) app/controllers/devise/registrations_controller.rb:19:in `create'
+actionpack (6.1.5.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.5.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.5.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.5.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.5.1) lib/action_text/engine.rb:59:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.5.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.5.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.5.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.5.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.5.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.5.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.5.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.5.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.5.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.5.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.5.1) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (6.1.5.1) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/http/content_security_policy.rb:19:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.5.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.5.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.5.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.5.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+rack-mini-profiler (2.3.4) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.2) lib/rack/proxy.rb:67:in `call'
+railties (6.1.5.1) lib/rails/engine.rb:539:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (7.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (70.1ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (2.9ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20220503042210"]]
+  [1m[36mTRANSACTION (60.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.3ms)[0m  [1m[35mALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.8ms)[0m  [1m[35mALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (101.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220503042210"]]
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (6.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/users" for 172.23.0.1 at 2022-08-29 14:40:55 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "name"=>"aknk", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "status"=>"signup"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :email, :password, :password_confirmation[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (4.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "aknk"], ["status", "signup"], ["created_at", "2022-08-29 14:40:56.000978"], ["updated_at", "2022-08-29 14:40:56.000978"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 7.7ms | Allocations: 9016)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column "name" of relation "users" does not exist
+LINE 1: INSERT INTO "users" ("name", "status", "created_at", "update...
+                             ^
+):
+  
+rack-mini-profiler (2.3.4) lib/patches/db/pg.rb:72:in `exec_params'
+rack-mini-profiler (2.3.4) lib/patches/db/pg.rb:72:in `exec_params'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `block (2 levels) in exec_no_cache'
+activesupport (6.1.5.1) lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+activesupport (6.1.5.1) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (6.1.5.1) lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `block in exec_no_cache'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+activesupport (6.1.5.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:670:in `exec_no_cache'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql_adapter.rb:649:in `execute_and_clear'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:55:in `exec_query'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/database_statements.rb:136:in `exec_insert'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:93:in `exec_insert'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/database_statements.rb:171:in `insert'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+activerecord (6.1.5.1) lib/active_record/persistence.rb:375:in `_insert_record'
+activerecord (6.1.5.1) lib/active_record/persistence.rb:929:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/counter_cache.rb:166:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/locking/optimistic.rb:79:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/attribute_methods/dirty.rb:201:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/callbacks.rb:461:in `block in _create_record'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:106:in `run_callbacks'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:824:in `_run_create_callbacks'
+activerecord (6.1.5.1) lib/active_record/callbacks.rb:461:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/timestamp.rb:108:in `_create_record'
+activerecord (6.1.5.1) lib/active_record/persistence.rb:900:in `create_or_update'
+activerecord (6.1.5.1) lib/active_record/callbacks.rb:457:in `block in create_or_update'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+activerecord (6.1.5.1) lib/active_record/autosave_association.rb:385:in `around_save_collection_association'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:824:in `_run_save_callbacks'
+activerecord (6.1.5.1) lib/active_record/callbacks.rb:457:in `create_or_update'
+activerecord (6.1.5.1) lib/active_record/timestamp.rb:126:in `create_or_update'
+activerecord (6.1.5.1) lib/active_record/persistence.rb:474:in `save'
+activerecord (6.1.5.1) lib/active_record/validations.rb:47:in `save'
+activerecord (6.1.5.1) lib/active_record/transactions.rb:298:in `block in save'
+activerecord (6.1.5.1) lib/active_record/transactions.rb:354:in `block in with_transaction_returning_status'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `block in transaction'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.1.5.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+activerecord (6.1.5.1) lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `transaction'
+activerecord (6.1.5.1) lib/active_record/transactions.rb:350:in `with_transaction_returning_status'
+activerecord (6.1.5.1) lib/active_record/transactions.rb:298:in `save'
+activerecord (6.1.5.1) lib/active_record/suppressor.rb:44:in `save'
+devise (4.8.1) app/controllers/devise/registrations_controller.rb:19:in `create'
+actionpack (6.1.5.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.5.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.5.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.5.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.5.1) lib/action_text/engine.rb:59:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.5.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.5.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.5.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.5.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.5.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.5.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.5.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.5.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.5.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.5.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.5.1) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (6.1.5.1) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/http/content_security_policy.rb:19:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.5.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.5.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.5.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.5.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+rack-mini-profiler (2.3.4) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.2) lib/rack/proxy.rb:67:in `call'
+railties (6.1.5.1) lib/rails/engine.rb:539:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.7ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (1.3ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20220503042210"]]
+  [1m[36mTRANSACTION (24.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (57.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying DEFAULT '', "status" character varying DEFAULT '', "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220503042210"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/users" for 172.23.0.1 at 2022-08-29 14:42:00 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aknk@gmail.com", "name"=>"aknk", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "status"=>"signup"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :email, :password, :password_confirmation[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (9.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "status") VALUES ($1, $2) RETURNING "id"[0m  [["name", "aknk"], ["status", "signup"]]
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost/
+Completed 302 Found in 102ms (ActiveRecord: 57.5ms | Allocations: 9593)
+
+
+Started GET "/" for 172.23.0.1 at 2022-08-29 14:42:00 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.haml
+  Rendering books/index.html.haml within layouts/application
+  [1m[36mBook Load (9.1ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY "books"."id" DESC[0m
+  ↳ app/views/books/index.html.haml:11
+  Rendered books/index.html.haml within layouts/application (Duration: 34.9ms | Allocations: 10199)
+  Rendered layout layouts/application.html.haml (Duration: 61.8ms | Allocations: 14844)
+Completed 200 OK in 87ms (Views: 53.5ms | ActiveRecord: 17.2ms | Allocations: 19023)
+
+
+Started GET "/users/sign_out" for 172.23.0.1 at 2022-08-29 14:42:08 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_out" for 172.23.0.1 at 2022-08-29 14:43:02 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#destroy as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[Devise] Could not find devise mapping for path "/users/sign_out".
+This may happen for two reasons:
+
+1) You forgot to wrap your route inside the scope block. For example:
+
+  devise_scope :user do
+    get "/some/route" => "some_devise_controller"
+  end
+
+2) You are testing a Devise controller bypassing the router.
+   If so, you can explicitly tell Devise which mapping to use:
+
+   @request.env["devise.mapping"] = Devise.mappings[:user]
+
+
+Completed 404 Not Found in 23ms (ActiveRecord: 8.6ms | Allocations: 5735)
+
+
+  
+AbstractController::ActionNotFound (Could not find devise mapping for path "/users/sign_out".
+This may happen for two reasons:
+
+1) You forgot to wrap your route inside the scope block. For example:
+
+  devise_scope :user do
+    get "/some/route" => "some_devise_controller"
+  end
+
+2) You are testing a Devise controller bypassing the router.
+   If so, you can explicitly tell Devise which mapping to use:
+
+   @request.env["devise.mapping"] = Devise.mappings[:user]
+
+):
+  
+devise (4.8.1) app/controllers/devise_controller.rb:90:in `unknown_action!'
+devise (4.8.1) app/controllers/devise_controller.rb:65:in `assert_is_devise_resource!'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.5.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.5.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.5.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.5.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.5.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.5.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.5.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.5.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.5.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.5.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.5.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/http/content_security_policy.rb:19:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.5.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.5.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.5.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.5.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+rack-mini-profiler (2.3.4) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.2) lib/rack/proxy.rb:67:in `call'
+railties (6.1.5.1) lib/rails/engine.rb:539:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2022-08-29 14:43:56 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.haml
+  Rendering books/index.html.haml within layouts/application
+  [1m[36mBook Load (1.4ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY "books"."id" DESC[0m
+  ↳ app/views/books/index.html.haml:11
+  Rendered books/index.html.haml within layouts/application (Duration: 16.5ms | Allocations: 4982)
+  Rendered layout layouts/application.html.haml (Duration: 41.7ms | Allocations: 9624)
+Completed 200 OK in 59ms (Views: 41.2ms | ActiveRecord: 7.2ms | Allocations: 12451)
+
+
+Started GET "/users/sign_out" for 172.23.0.1 at 2022-08-29 14:43:58 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#destroy as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[Devise] Could not find devise mapping for path "/users/sign_out".
+This may happen for two reasons:
+
+1) You forgot to wrap your route inside the scope block. For example:
+
+  devise_scope :user do
+    get "/some/route" => "some_devise_controller"
+  end
+
+2) You are testing a Devise controller bypassing the router.
+   If so, you can explicitly tell Devise which mapping to use:
+
+   @request.env["devise.mapping"] = Devise.mappings[:user]
+
+
+Completed 404 Not Found in 8ms (ActiveRecord: 1.1ms | Allocations: 1827)
+
+
+  
+AbstractController::ActionNotFound (Could not find devise mapping for path "/users/sign_out".
+This may happen for two reasons:
+
+1) You forgot to wrap your route inside the scope block. For example:
+
+  devise_scope :user do
+    get "/some/route" => "some_devise_controller"
+  end
+
+2) You are testing a Devise controller bypassing the router.
+   If so, you can explicitly tell Devise which mapping to use:
+
+   @request.env["devise.mapping"] = Devise.mappings[:user]
+
+):
+  
+devise (4.8.1) app/controllers/devise_controller.rb:90:in `unknown_action!'
+devise (4.8.1) app/controllers/devise_controller.rb:65:in `assert_is_devise_resource!'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.5.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.5.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.5.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.5.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.5.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.5.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.5.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.5.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.5.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.5.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.5.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.5.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.5.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.5.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/http/content_security_policy.rb:19:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.5.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.5.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.5.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.5.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.5.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.5.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.5.1) lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+rack-mini-profiler (2.3.4) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.2) lib/rack/proxy.rb:67:in `call'
+railties (6.1.5.1) lib/rails/engine.rb:539:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/users/sign_out" for 172.23.0.1 at 2022-08-29 14:46:00 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_in" for 172.23.0.1 at 2022-08-29 14:46:05 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 25ms (ActiveRecord: 8.2ms | Allocations: 5571)
+
+
+Started GET "/" for 172.23.0.1 at 2022-08-29 14:46:05 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.haml
+  Rendering books/index.html.haml within layouts/application
+  [1m[36mBook Load (1.2ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY "books"."id" DESC[0m
+  ↳ app/views/books/index.html.haml:11
+  Rendered books/index.html.haml within layouts/application (Duration: 18.8ms | Allocations: 10043)
+  Rendered layout layouts/application.html.haml (Duration: 56.3ms | Allocations: 22490)
+Completed 200 OK in 74ms (Views: 55.3ms | ActiveRecord: 7.7ms | Allocations: 26022)
+
+
+Started DELETE "/users/sign_out" for 172.23.0.1 at 2022-08-29 14:46:06 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost/
+Completed 302 Found in 20ms (ActiveRecord: 2.4ms | Allocations: 1873)
+
+
+Started GET "/" for 172.23.0.1 at 2022-08-29 14:46:07 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BooksController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 237)
+
+
+Started GET "/users/sign_in" for 172.23.0.1 at 2022-08-29 14:46:07 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered partials/_alert.html.haml (Duration: 3.8ms | Allocations: 1702)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 27.7ms | Allocations: 9507)
+  Rendered layout layouts/application.html.haml (Duration: 33.1ms | Allocations: 9576)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms | Allocations: 11932)
+
+
+  
+ActionView::Template::Error (undefined method `email' for #<User id: nil, name: "", status: "">):
+     6:       .form-group.mb-2
+     7:         = f.label :email
+     8:         %br/
+     9:         = f.email_field :email, autofocus: true, autocomplete: "email", class: 'form-control'
+    10:       .form-group.mb-2
+    11:         = f.label :password
+    12:         %br/
+  
+app/views/devise/sessions/new.html.haml:9
+app/views/devise/sessions/new.html.haml:5
+app/controllers/users/sessions_controller.rb:6:in `new'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.2ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (1.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20220503042210"]]
+  [1m[36mTRANSACTION (36.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2419222501046321460)[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20220503042210)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (45.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying DEFAULT '', "email" character varying DEFAULT '', "status" character varying DEFAULT '', "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220503042210"]]
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(2419222501046321460)[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/sign_in" for 172.23.0.1 at 2022-08-29 14:46:50 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered partials/_alert.html.haml (Duration: 0.2ms | Allocations: 52)
+  Rendered devise/shared/_links.html.haml (Duration: 7.8ms | Allocations: 2766)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 39.9ms | Allocations: 4081)
+  Rendered layout layouts/application.html.haml (Duration: 95.0ms | Allocations: 8699)
+Completed 200 OK in 114ms (Views: 98.1ms | ActiveRecord: 5.1ms | Allocations: 13632)
+
+
+Started GET "/users/sign_up" for 172.23.0.1 at 2022-08-29 14:47:00 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered partials/_alert.html.haml (Duration: 0.2ms | Allocations: 46)
+  Rendered devise/shared/_error_messages.html.haml (Duration: 8.2ms | Allocations: 2271)
+  Rendered devise/shared/_links.html.haml (Duration: 0.4ms | Allocations: 106)
+  Rendered devise/registrations/new.html.haml within layouts/application (Duration: 62.2ms | Allocations: 8962)
+  Rendered layout layouts/application.html.haml (Duration: 105.4ms | Allocations: 13479)
+Completed 200 OK in 125ms (Views: 121.5ms | ActiveRecord: 0.0ms | Allocations: 14837)
+
+
+Started POST "/users" for 172.23.0.1 at 2022-08-29 14:47:09 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"ayamashita124@gmail.com", "name"=>"aknk", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "status"=>"signup"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :email, :password, :password_confirmation[0m
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (10.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "status") VALUES ($1, $2) RETURNING "id"[0m  [["name", "aknk"], ["status", "signup"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost/
+Completed 302 Found in 38ms (ActiveRecord: 13.9ms | Allocations: 5654)
+
+
+Started GET "/" for 172.23.0.1 at 2022-08-29 14:47:10 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.haml
+  Rendering books/index.html.haml within layouts/application
+  [1m[36mBook Load (1.3ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY "books"."id" DESC[0m
+  ↳ app/views/books/index.html.haml:11
+  Rendered books/index.html.haml within layouts/application (Duration: 14.8ms | Allocations: 4943)
+  Rendered layout layouts/application.html.haml (Duration: 38.6ms | Allocations: 9671)
+Completed 200 OK in 63ms (Views: 37.0ms | ActiveRecord: 10.2ms | Allocations: 14579)
+
+
+Started DELETE "/users/sign_out" for 172.23.0.1 at 2022-08-29 14:47:18 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (6.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost/
+Completed 302 Found in 27ms (ActiveRecord: 6.8ms | Allocations: 1802)
+
+
+Started GET "/" for 172.23.0.1 at 2022-08-29 14:47:18 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BooksController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 227)
+
+
+Started GET "/users/sign_in" for 172.23.0.1 at 2022-08-29 14:47:18 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered partials/_alert.html.haml (Duration: 0.2ms | Allocations: 52)
+  Rendered devise/shared/_links.html.haml (Duration: 0.6ms | Allocations: 126)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 7.1ms | Allocations: 1224)
+  Rendered layout layouts/application.html.haml (Duration: 44.8ms | Allocations: 5727)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.0ms | Allocations: 6428)
+
+

@@ -1,0 +1,28 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Workspace
+    %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+  %body
+    %nav.d-flex.w-100
+      %ul.nav
+        %li.nav-item
+          %a.nav-link{:href => root_path} Home
+        %li.nav-item
+          %a.nav-link{:href => new_book_path} Register Book
+        - unless current_user
+          %li.nav-item
+            %a.nav-link{:href => new_user_registration_path} Sign up
+        - else
+          %li.nav-item
+            = button_to 'Sign out', destroy_user_session_path, method: :delete, class: 'nav-link'
+      - if current_user.present?
+        %span.d-flex.justify-content-end.align-items-center
+          = current_user.name
+    %main.mx-3
+      %h1.display-1 Books
+      = yield

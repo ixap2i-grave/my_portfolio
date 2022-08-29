@@ -1,0 +1,32 @@
+%div.container
+  %section.card.mx-3.p-5
+    %h2 Sign up
+    = render 'partials/alert', locale: { flash: flash }
+
+    = form_for(resource, as: resource_name, url: user_registration_path) do |f|
+      = render "devise/shared/error_messages", resource: resource
+      .form-group.mb-2
+        = f.label :email
+        %br/
+        = f.email_field :email, autofocus: true, autocomplete: "email", class: 'form-control'
+      .form-group.mb-2
+        = f.label :name
+        %br/
+        = f.text_field :name, class: 'form-control'
+
+      .form-group.mb-2
+        = f.label :password
+        - if @minimum_password_length
+          %em
+            (#{@minimum_password_length} characters minimum)
+        %br/
+        = f.password_field :password, autocomplete: "new-password", class: 'form-control'
+      .form-group.mb-2
+        = f.label :password_confirmation
+        %br/
+        = f.password_field :password_confirmation, autocomplete: "new-password", class: 'form-control'
+        = f.hidden_field :status, value: "signup", class: 'form-control'
+      .actions
+        = f.submit "Sign up", class: "btn btn-primary"
+  %section.mx-3
+    = render "devise/shared/links"

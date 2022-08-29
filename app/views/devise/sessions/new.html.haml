@@ -1,0 +1,21 @@
+%div.container
+  %section.card.mx-3.p-5
+    = render 'partials/alert', locale: { flash: flash }
+    %h2 Log in
+    = form_for(resource, as: resource_name, url: user_session_path) do |f|
+      .form-group.mb-2
+        = f.label :email
+        %br/
+        = f.email_field :email, autofocus: true, autocomplete: "email", class: 'form-control'
+      .form-group.mb-2
+        = f.label :password
+        %br/
+        = f.password_field :password, autocomplete: "current-password", class: 'form-control'
+      - if devise_mapping.rememberable?
+        .form-group
+          = f.check_box :remember_me, class: 'form-control'
+          = f.label :remember_me
+      .actions
+        = f.submit "Log in", class: "btn btn-primary"
+  %section.mx-3
+    = render "devise/shared/links"

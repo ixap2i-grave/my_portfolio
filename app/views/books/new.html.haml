@@ -1,0 +1,17 @@
+%p.fs-1 Book Register
+%div.container
+  = form_with url: books_path, method: :post do |f|
+    %div.row.mb-3
+      = f.label :title, 'Title', class: 'form-label'
+      = text_field_tag :title, '', class: 'form-control'
+    %div.row.mb-3
+      = f.label :description, 'Description', class: 'form-label'
+      = text_field_tag :description, '', class: 'form-control'
+    %div.row.mb-3
+      = f.label :isbn, 'Isbn', class: 'form-label'
+      = text_field_tag :isbn, '', class: 'form-control'
+    %div.row.mb-3
+      = f.label :category_id, '', class: 'form-label'
+      = text_field_tag :category_id, '', class: 'form-control'
+    %div.row.mb-3
+      = submit_tag 'register', class: 'btn btn-primary'
